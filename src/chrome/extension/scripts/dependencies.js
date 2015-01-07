@@ -4,7 +4,8 @@
 
 var core = chrome.extension.getBackgroundPage().core;
 var openDownloadAppPage = chrome.extension.getBackgroundPage().openDownloadAppPage;
-var browserApi = chrome.extension.getBackgroundPage().chromeBrowserApi;
-var ui = new UI.UserInterface(core, browserApi);
-core.getInitialState();
+//var browserApi = chrome.extension.getBackgroundPage().chromeBrowserApi;
+//var ui = new UI.UserInterface(core, browserApi);
+//core.getInitialState();
+var browser = 'chrome';
 console.log('Loaded dependencies for Chrome Extension.');
